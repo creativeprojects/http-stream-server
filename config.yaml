@@ -1,0 +1,9 @@
+---
+servers:
+  # we use the names "http" and "https" here but it can be any name
+  http:
+    listen: http://:8080
+  https:
+    listen: https://:8443
+    certificate: cert/certificate.pem
+    privateKey: cert/key.pem
